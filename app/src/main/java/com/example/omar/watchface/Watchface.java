@@ -99,8 +99,6 @@ public class WatchFace {
         time.setToNow();
         canvas.drawColor(Color.BLACK);
 
-        Log.i("TAG","I am drawing mother fucker!");
-
         String doseText = "4h.30m"; // should be coming from the phone later on.
         float doseXOffset = computeXOffset(doseText, dosePaint, bounds);
         float doseYOffset = computeDoseYOffset(doseText, dosePaint, bounds);
